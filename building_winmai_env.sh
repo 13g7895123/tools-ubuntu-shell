@@ -4,7 +4,7 @@
 sudo apt update && sudo apt upgrade && sudo apt dist-upgrade
 
 # Lamp
-sudo apt install tasksel
+sudo apt install tasksel -y
 sudo tasksel install lamp-server
 
 sudo service apache2 start
